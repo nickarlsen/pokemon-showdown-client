@@ -1247,8 +1247,8 @@
 				buf += '</ol>';
 				var formatInfo = this.formatResources[this.curTeam.format];
 				// data's there and loaded
-				if (this.curTeam.format == 'gen3ou')
-					formatInfo = true;
+				//if (this.curTeam.format == 'gen3ou')
+				formatInfo = true;
 				if (formatInfo && formatInfo !== true) {
 					if (formatInfo.resources.length || formatInfo.url) {
 						buf += '<div style="padding-left: 5px"><h3 style="font-size: 12px">Teambuilding resources for this tier:</h3></div><ul>';
