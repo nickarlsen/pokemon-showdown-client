@@ -19,9 +19,9 @@ Config.whitelist = [
 // address bar is `Config.routes.client`.
 Config.defaultserver = {
 	id: 'showdown',
-	host: 'fbirered.freemyip.com',
-	port: 443,
-	httpport: 80,
+	host: 'localhost',
+	port: 8000,
+	httpport: 8000,
 	altport: 80,
 	registered: true
 };
