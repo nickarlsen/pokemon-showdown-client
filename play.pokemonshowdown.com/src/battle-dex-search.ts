@@ -1355,6 +1355,8 @@ class BattleMoveSearch extends BattleTypedSearch<'move'> {
 		let abilityid: ID = set ? toID(set.ability) : '' as ID;
 		const itemid: ID = set ? toID(set.item) : '' as ID;
 
+		if (moves.includes(id)) return true;
+
 		if (dex.gen === 1) {
 			// Usually not useless for Gen 1
 			if ([
