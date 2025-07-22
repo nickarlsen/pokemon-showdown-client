@@ -148,8 +148,8 @@ const BattleBaseSpeciesChart = [
 
 const BattlePokemonIconIndexes: {[id: string]: number} = {
 	// alt forms
-	kabunette: 141,
-	boskoal: 324,
+	// kabunette: 141,
+	// boskoal: 324,
 	egg: 1032 + 1,
 	pikachubelle: 1032 + 2,
 	pikachulibre: 1032 + 3,
